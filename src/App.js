@@ -1,13 +1,14 @@
 import React from 'react';
-import MovieCard from './components/MovieCard';
+import Movies from './components/Movies';
+import About from './components/About';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Jon Turteltaub Movie List</h1>
-      <p>populated via themoviedb.org</p>
-      <MovieCard />
+      <h1>Jon Turteltaub Movie Poster Gallery</h1>
+      <About />
+      <Movies />
     </div>
   );
 }
