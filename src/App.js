@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import MovieCard from './components/MovieCard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello! This is hosted with AWS Amplify.</h1>
+      <MovieCard/>
     </div>
   );
 }
