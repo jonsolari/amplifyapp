@@ -6,9 +6,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Jon Turteltaub Movie Poster Gallery</h1>
-      <About />
+      <h1><a href="https://www.imdb.com/name/nm0005509/">Jon Turteltaub</a> Movie Poster Gallery</h1>
       <Movies />
+      <About />
     </div>
   );
 }
