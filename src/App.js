@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <MovieCard/>
+      <h1>Jon Turteltaub Movie List</h1>
+      <p>populated via themoviedb.org</p>
+      <MovieCard />
     </div>
   );
 }
