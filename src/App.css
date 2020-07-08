@@ -388,7 +388,7 @@ p{
 
 img{
   margin: 1rem;
-  width: 100%;
+  width: auto;
   max-width: 20rem;
   height: auto;
 }
